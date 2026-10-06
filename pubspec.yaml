@@ -1,0 +1,67 @@
+name: myfuture
+description: MyFuture — AI Vedic astrology consultations.
+publish_to: "none"
+version: 6.1.7+8
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  intl: any
+  provider: ^6.1.2
+  image_picker: ^1.1.2
+  image_picker_android: ^0.8.12+23
+  image_picker_platform_interface: ^2.10.1
+  shared_preferences: ^2.5.3
+  razorpay_flutter: ^1.4.6
+  pdf: ^3.13.0
+  printing: ^5.15.0
+  share_plus: ^13.3.0
+  path_provider: ^2.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/logo.jpeg
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: assets/logo.jpeg
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#0D0A14"
+  image: assets/logo.jpeg
+  fullscreen: true
+  android_gravity: center
+  ios_content_mode: scaleAspectFit
+  android_12:
+    color: "#0D0A14"
+    image: assets/logo.jpeg
+    icon_background_color: "#0D0A14"
+  ios: true
+  android: true
+  web: false
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/logo.jpeg
+    - assets/pandit1.png
+    - assets/pandit2.png
+    - assets/pandit3.png
+    - assets/pandit4.png
+    - assets/pandit5.png

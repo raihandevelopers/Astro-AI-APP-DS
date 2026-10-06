@@ -1,0 +1,298 @@
+{
+  "@@locale": "en",
+  "appTitle": "MyFuture",
+  "navHome": "Home",
+  "navHistory": "History",
+  "navWallet": "Wallet",
+  "navYou": "You",
+  "account": "Account",
+  "language": "Language",
+  "chooseLanguage": "Choose language",
+  "languageHint": "App UI and AI replies use this language",
+  "seeker": "Seeker",
+  "birthChartKundli": "Birth chart & kundli",
+  "editBirthDetails": "Edit birth details",
+  "palmReading": "Palm reading",
+  "monthlyPro": "Monthly Pro",
+  "referEarn": "Refer & Earn",
+  "walletRecharge": "Wallet & recharge",
+  "chatHistory": "Chat history",
+  "helpSupport": "Help & support",
+  "notices": "Notices",
+  "privacyPolicy": "Privacy policy",
+  "termsOfService": "Terms of service",
+  "signOut": "Sign out",
+  "guidanceOnly": "Guidance only — not medical, legal, or financial advice.",
+  "languageUpdated": "Language updated",
+  "catLove": "Love",
+  "catLoveLine": "Romance & 5th house",
+  "catMarriage": "Marriage",
+  "catMarriageLine": "Partnership & 7th house",
+  "catCareer": "Career",
+  "catCareerLine": "Work & 10th house",
+  "catBusiness": "Business",
+  "catBusinessLine": "Enterprise & growth",
+  "catFinance": "Finance",
+  "catFinanceLine": "Wealth & savings",
+  "catFamily": "Family",
+  "catFamilyLine": "Home & relationships",
+  "catGeneral": "General",
+  "catGeneralLine": "Life path & chart",
+  "loginTitle": "Welcome",
+  "loginSubtitle": "Sign in with mobile or email",
+  "continueBtn": "Continue",
+  "sendOtp": "Send OTP",
+  "verifyOtp": "Verify OTP",
+  "walletTitle": "Wallet",
+  "quickRecharge": "Quick recharge",
+  "subscribe": "Subscribe",
+  "payWithRazorpay": "Pay with Razorpay",
+  "ourJyotishis": "Our Jyotishis",
+  "startConsultation": "Start consultation",
+  "typeMessage": "Ask about your chart…",
+  "endChat": "End chat",
+  "save": "Save",
+  "cancel": "Cancel",
+  "loading": "Loading…",
+  "errorGeneric": "Something went wrong",
+  "labelLagna": "Lagna",
+  "labelMoon": "Moon",
+  "labelNakshatra": "Nakshatra",
+  "labelSun": "Sun",
+  "labelPlanets": "Planets",
+  "labelHouse": "House",
+  "namasteName": "Namaste, {name}",
+  "@namasteName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cosmicGuideAwaits": "Your cosmic guide awaits",
+  "chatNow": "Chat Now",
+  "myKundli": "My Kundli",
+  "palmShort": "Palm",
+  "proShort": "Pro",
+  "rechargeShort": "Recharge",
+  "unlimited": "Unlimited",
+  "proChat": "Pro chat",
+  "talkTime": "Talk time",
+  "minsLeft": "{count} min",
+  "@minsLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "free": "Free",
+  "perChat": "Per chat",
+  "perMinute": "Per minute",
+  "unlimitedPro": "Unlimited Pro",
+  "perMinRate": "₹{rate}/min",
+  "@perMinRate": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "yearsExp": "{years} yrs",
+  "@yearsExp": {
+    "placeholders": {
+      "years": {
+        "type": "int"
+      }
+    }
+  },
+  "popularTopics": "Popular topics",
+  "allConsultations": "All consultations",
+  "firstConsultation": "First consultation",
+  "promoSubtitle": "Ask anything about love, career, marriage & more",
+  "howItWorks": "How it works",
+  "stepBirthTitle": "Add birth details",
+  "stepBirthBody": "Accurate kundli from your time & place",
+  "stepChatTitle": "Start a chat",
+  "stepChatBody": "Pick a topic — love, career, marriage",
+  "stepInsightTitle": "Get insights",
+  "stepInsightBody": "AI reads your chart in real time",
+  "unlockKundli": "Unlock your Kundli",
+  "unlockKundliHint": "Add birth details for accurate readings",
+  "startChatNow": "Start Chat Now",
+  "noKundliYet": "No kundli yet",
+  "noKundliHint": "Add your birth details to compute Lagna, Moon, and planetary positions.",
+  "addBirthDetails": "Add birth details",
+  "tabTraditional": "Traditional",
+  "tabLagna": "Lagna",
+  "tabNavamsha": "Navamsha",
+  "tabChandra": "Moon",
+  "aiJyotishiCat": "AI Jyotishi · {category}",
+  "@aiJyotishiCat": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "endConsultation": "End consultation?",
+  "end": "End",
+  "close": "Close",
+  "consultationEnded": "Consultation ended",
+  "walletEmptyEnded": "Wallet empty — chat ended",
+  "consultationClosed": "Consultation closed",
+  "noChatsYet": "No chats yet",
+  "noChatsHint": "Start a consultation from Home to talk with AI Jyotishi about your chart.",
+  "loadingChats": "Loading your chats…",
+  "summary": "Summary",
+  "transcript": "Transcript",
+  "pandit1Name": "Pt. Ramesh Shastri",
+  "pandit1Specialty": "Vedic · Kundli",
+  "pandit2Name": "Acharya Vivek",
+  "pandit2Specialty": "Numerology · Chart",
+  "pandit3Name": "Swami Devanand",
+  "pandit3Specialty": "Lal Kitab · Remedies",
+  "pandit4Name": "Pt. Suresh Joshi",
+  "pandit4Specialty": "Marriage · Muhurat",
+  "pandit5Name": "Acharya Keshav",
+  "pandit5Specialty": "Career · Dasha",
+  "kundliTitle": "Kundli",
+  "kundliShare": "Share",
+  "kundliTabBasic": "Basic",
+  "kundliTabCharts": "Charts",
+  "kundliTabKp": "KP",
+  "kundliTabAshtakvarga": "Ashtakvarga",
+  "kundliTabDasha": "Dasha",
+  "kundliTabReport": "Report",
+  "kundliBasicDetails": "Basic Details",
+  "kundliBirthChart": "Birth Chart",
+  "kundliPlanetaryPositions": "Planetary Positions",
+  "kundliManglikAnalysis": "Manglik Analysis",
+  "kundliManglikPending": "Manglik analysis will appear after chart refresh.",
+  "kundliFullHint": "Add your birth details to generate your full kundli.",
+  "kundliLabelName": "Name",
+  "kundliLabelDate": "Date",
+  "kundliLabelTime": "Time",
+  "kundliLabelPlace": "Place",
+  "kundliLabelLatitude": "Latitude",
+  "kundliLabelLongitude": "Longitude",
+  "kundliLabelTimezone": "Timezone",
+  "kundliLabelSunrise": "Sunrise",
+  "kundliLabelSunset": "Sunset",
+  "kundliLabelAyanamsha": "Ayanamsha",
+  "kundliLabelMoonSign": "Moon Sign",
+  "kundliLabelSunSign": "Sun Sign",
+  "kundliLabelGender": "Gender",
+  "kundliLabelDob": "Date of birth",
+  "kundliLabelBirthTime": "Birth time",
+  "kundliLabelBirthPlace": "Birth place",
+  "kundliLabelManglik": "Manglik",
+  "kundliLabelDasha": "Dasha",
+  "kundliKpSystem": "KP System",
+  "kundliKpUnavailable": "KP data unavailable — refreshing chart…",
+  "kundliSignLord": "Sign lord",
+  "kundliStarLord": "Star lord",
+  "kundliSubLord": "Sub lord",
+  "kundliHouseCusps": "House Cusps (from your lagna)",
+  "kundliPlanetLords": "Planet Lords",
+  "kundliSavTitle": "Sarvashtakavarga (SAV)",
+  "kundliSavSubtitle": "Computed from your lagna + 7 planets",
+  "kundliAshtakUnavailable": "Ashtakvarga unavailable — refreshing chart…",
+  "kundliBhinnaTitle": "Bhinnashtakavarga by sign",
+  "kundliVimshottari": "Vimshottari Dasha",
+  "kundliDashaUnavailable": "Dasha unavailable — refresh chart.",
+  "kundliMoonIn": "Moon in {nakshatra}",
+  "kundliBalanceOf": "Balance of {lord}: {years} years",
+  "kundliMahadasha": "Mahadasha",
+  "kundliCurrent": "Current",
+  "kundliCurrentAntardasha": "Current Antardasha",
+  "kundliTo": "to {date}",
+  "kundliYearsShort": "{years} yrs",
+  "kundliReportTitle": "Kundli Report",
+  "kundliReportBasedOn": "Based on your signup birth details",
+  "kundliBirthProfile": "Your birth profile",
+  "kundliAiReading": "AI reading",
+  "kundliRefreshAi": "Refresh AI",
+  "kundliGenerating": "Generating…",
+  "kundliAiWriting": "AI is writing your kundli report from your birth chart…",
+  "kundliAiHint": "Tap Refresh AI to generate a personal reading from your signup details.",
+  "kundliDownloadPdf": "Download Kundli PDF",
+  "kundliPdfFailed": "PDF failed",
+  "kundliShareFailed": "Share failed",
+  "kundliSectionPersonality": "Personality",
+  "kundliSectionCareer": "Career",
+  "kundliSectionLove": "Love & relationships",
+  "kundliSectionFamily": "Family & home",
+  "kundliSectionStrengths": "Strengths",
+  "kundliSectionChallenges": "Challenges",
+  "kundliSectionRemedies": "Remedies",
+  "kundliSectionOverall": "Overall guidance",
+  "kundliHouseN": "House {n}",
+  "@kundliMoonIn": {
+    "placeholders": {
+      "nakshatra": {
+        "type": "String"
+      }
+    }
+  },
+  "@kundliBalanceOf": {
+    "placeholders": {
+      "lord": {
+        "type": "String"
+      },
+      "years": {
+        "type": "String"
+      }
+    }
+  },
+  "@kundliTo": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@kundliYearsShort": {
+    "placeholders": {
+      "years": {
+        "type": "String"
+      }
+    }
+  },
+  "@kundliHouseN": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "kundliLabelLagna": "Lagna",
+  "kundliLabelMoon": "Moon",
+  "kundliLabelSun": "Sun",
+  "kundliPlanets": "Planets",
+  "kundliResult": "Result: {label}",
+  "kundliPdfTitle": "MyFuture Kundli",
+  "kundliPdfShareText": "MyFuture Kundli — {name}",
+  "kundliColPlanet": "Planet",
+  "kundliColSign": "Sign",
+  "kundliColDegree": "Degree",
+  "kundliColHouse": "House",
+  "kundliColNakshatra": "Nakshatra",
+  "kundliColStart": "Start",
+  "kundliColEnd": "End",
+  "kundliColYears": "Years",
+  "@kundliResult": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "@kundliPdfShareText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}
