@@ -660,4 +660,20 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get kundliColYears => 'वर्ष';
+
+  @override
+  String get deleteAccount => 'खाता हटाएँ';
+
+  @override
+  String get deleteAccountTitle => 'अपना खाता हटाएँ?';
+
+  @override
+  String get deleteAccountBody =>
+      'इससे आपकी प्रोफ़ाइल, कुंडली, चैट, वॉलेट इतिहास और हस्तरेखा पढ़ना स्थायी रूप से हट जाएगा। इसे वापस नहीं किया जा सकता।';
+
+  @override
+  String get deleteAccountConfirm => 'स्थायी रूप से हटाएँ';
+
+  @override
+  String get accountDeleted => 'खाता हटा दिया गया';
 }

@@ -294,5 +294,10 @@
         "type": "String"
       }
     }
-  }
+  },
+  "deleteAccount": "Delete account",
+  "deleteAccountTitle": "Delete your account?",
+  "deleteAccountBody": "This permanently deletes your profile, birth chart, chats, wallet history, and palm readings. This cannot be undone.",
+  "deleteAccountConfirm": "Delete forever",
+  "accountDeleted": "Account deleted"
 }

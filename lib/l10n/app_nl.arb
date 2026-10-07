@@ -207,5 +207,10 @@
   "kundliColNakshatra": "Nakshatra",
   "kundliColStart": "Start",
   "kundliColEnd": "Einde",
-  "kundliColYears": "Jaren"
+  "kundliColYears": "Jaren",
+  "deleteAccount": "Account verwijderen",
+  "deleteAccountTitle": "Account verwijderen?",
+  "deleteAccountBody": "Dit verwijdert permanent je profiel, geboortekaart, chats, walletgeschiedenis en palmlezingen. Dit kan niet ongedaan worden gemaakt.",
+  "deleteAccountConfirm": "Voorgoed verwijderen",
+  "accountDeleted": "Account verwijderd"
 }

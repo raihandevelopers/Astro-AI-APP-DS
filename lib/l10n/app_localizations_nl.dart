@@ -663,4 +663,20 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get kundliColYears => 'Jaren';
+
+  @override
+  String get deleteAccount => 'Account verwijderen';
+
+  @override
+  String get deleteAccountTitle => 'Account verwijderen?';
+
+  @override
+  String get deleteAccountBody =>
+      'Dit verwijdert permanent je profiel, geboortekaart, chats, walletgeschiedenis en palmlezingen. Dit kan niet ongedaan worden gemaakt.';
+
+  @override
+  String get deleteAccountConfirm => 'Voorgoed verwijderen';
+
+  @override
+  String get accountDeleted => 'Account verwijderd';
 }

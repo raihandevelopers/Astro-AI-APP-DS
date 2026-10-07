@@ -207,5 +207,10 @@
   "kundliColNakshatra": "Nakshatra",
   "kundliColStart": "Début",
   "kundliColEnd": "Fin",
-  "kundliColYears": "Années"
+  "kundliColYears": "Années",
+  "deleteAccount": "Supprimer le compte",
+  "deleteAccountTitle": "Supprimer votre compte ?",
+  "deleteAccountBody": "Cela supprime définitivement votre profil, thème natal, chats, historique de portefeuille et lectures de paume. Irréversible.",
+  "deleteAccountConfirm": "Supprimer définitivement",
+  "accountDeleted": "Compte supprimé"
 }

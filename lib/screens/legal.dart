@@ -61,7 +61,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
         ),
         (
           'Your rights & choices',
-          'Depending on your location, you may have rights to access, correct, or delete personal data, or withdraw consent where processing is consent-based. In the app you can edit birth details, end consultations, change language, and sign out. For account deletion or a privacy request, contact us at $_contactEmail or send a Support ticket with subject “Privacy / Delete account”. We will respond within a reasonable period as required by law.',
+          'Depending on your location, you may have rights to access, correct, or delete personal data, or withdraw consent where processing is consent-based. In the app you can edit birth details, end consultations, change language, sign out, and permanently delete your account from You → Delete account (this removes your profile, chart, chats, wallet history, and related data). For other privacy requests, contact us at $_contactEmail or send a Support ticket with subject “Privacy”. We will respond within a reasonable period as required by law.',
         ),
         (
           'Children',

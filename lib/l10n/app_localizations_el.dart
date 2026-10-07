@@ -661,4 +661,20 @@ class AppLocalizationsEl extends AppLocalizations {
 
   @override
   String get kundliColYears => 'Έτη';
+
+  @override
+  String get deleteAccount => 'Διαγραφή λογαριασμού';
+
+  @override
+  String get deleteAccountTitle => 'Διαγραφή λογαριασμού;';
+
+  @override
+  String get deleteAccountBody =>
+      'Αυτό διαγράφει οριστικά το προφίλ, τον χάρτη γέννησης, τις συνομιλίες, το ιστορικό πορτοφολιού και τις αναγνώσεις παλάμης. Δεν αναιρείται.';
+
+  @override
+  String get deleteAccountConfirm => 'Οριστική διαγραφή';
+
+  @override
+  String get accountDeleted => 'Ο λογαριασμός διαγράφηκε';
 }

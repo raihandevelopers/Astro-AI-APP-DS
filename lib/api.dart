@@ -46,6 +46,9 @@ class Api {
               .put(uri, headers: _headers, body: jsonEncode(body ?? {}))
               .timeout(_timeout);
           break;
+        case 'DELETE':
+          res = await http.delete(uri, headers: _headers).timeout(_timeout);
+          break;
         default:
           res = await http
               .post(uri, headers: _headers, body: jsonEncode(body ?? {}))
@@ -92,6 +95,8 @@ class Api {
       });
 
   Future<Map<String, dynamic>> me() => _send('GET', '/users/me');
+
+  Future<Map<String, dynamic>> deleteAccount() => _send('DELETE', '/users/me');
 
   Future<Map<String, dynamic>> saveProfile(Map<String, dynamic> body) =>
       _send('PUT', '/users/profile', body: body);

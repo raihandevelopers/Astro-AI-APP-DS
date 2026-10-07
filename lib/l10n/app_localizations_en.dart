@@ -664,4 +664,20 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get kundliColYears => 'Years';
+
+  @override
+  String get deleteAccount => 'Delete account';
+
+  @override
+  String get deleteAccountTitle => 'Delete your account?';
+
+  @override
+  String get deleteAccountBody =>
+      'This permanently deletes your profile, birth chart, chats, wallet history, and palm readings. This cannot be undone.';
+
+  @override
+  String get deleteAccountConfirm => 'Delete forever';
+
+  @override
+  String get accountDeleted => 'Account deleted';
 }

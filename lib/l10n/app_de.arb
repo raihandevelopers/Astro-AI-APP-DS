@@ -207,5 +207,10 @@
   "kundliColNakshatra": "Nakshatra",
   "kundliColStart": "Start",
   "kundliColEnd": "Ende",
-  "kundliColYears": "Jahre"
+  "kundliColYears": "Jahre",
+  "deleteAccount": "Konto löschen",
+  "deleteAccountTitle": "Konto wirklich löschen?",
+  "deleteAccountBody": "Dadurch werden Profil, Geburtshoroskop, Chats, Wallet-Verlauf und Handlesen dauerhaft gelöscht. Das kann nicht rückgängig gemacht werden.",
+  "deleteAccountConfirm": "Endgültig löschen",
+  "accountDeleted": "Konto gelöscht"
 }

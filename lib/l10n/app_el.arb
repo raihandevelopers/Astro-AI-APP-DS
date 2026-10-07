@@ -207,5 +207,10 @@
   "kundliColNakshatra": "Nakshatra",
   "kundliColStart": "Έναρξη",
   "kundliColEnd": "Λήξη",
-  "kundliColYears": "Έτη"
+  "kundliColYears": "Έτη",
+  "deleteAccount": "Διαγραφή λογαριασμού",
+  "deleteAccountTitle": "Διαγραφή λογαριασμού;",
+  "deleteAccountBody": "Αυτό διαγράφει οριστικά το προφίλ, τον χάρτη γέννησης, τις συνομιλίες, το ιστορικό πορτοφολιού και τις αναγνώσεις παλάμης. Δεν αναιρείται.",
+  "deleteAccountConfirm": "Οριστική διαγραφή",
+  "accountDeleted": "Ο λογαριασμός διαγράφηκε"
 }

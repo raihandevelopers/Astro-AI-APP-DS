@@ -664,4 +664,20 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get kundliColYears => 'Années';
+
+  @override
+  String get deleteAccount => 'Supprimer le compte';
+
+  @override
+  String get deleteAccountTitle => 'Supprimer votre compte ?';
+
+  @override
+  String get deleteAccountBody =>
+      'Cela supprime définitivement votre profil, thème natal, chats, historique de portefeuille et lectures de paume. Irréversible.';
+
+  @override
+  String get deleteAccountConfirm => 'Supprimer définitivement';
+
+  @override
+  String get accountDeleted => 'Compte supprimé';
 }

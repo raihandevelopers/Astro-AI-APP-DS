@@ -207,5 +207,10 @@
   "kundliColNakshatra": "नक्षत्र",
   "kundliColStart": "शुरू",
   "kundliColEnd": "अंत",
-  "kundliColYears": "वर्ष"
+  "kundliColYears": "वर्ष",
+  "deleteAccount": "खाता हटाएँ",
+  "deleteAccountTitle": "अपना खाता हटाएँ?",
+  "deleteAccountBody": "इससे आपकी प्रोफ़ाइल, कुंडली, चैट, वॉलेट इतिहास और हस्तरेखा पढ़ना स्थायी रूप से हट जाएगा। इसे वापस नहीं किया जा सकता।",
+  "deleteAccountConfirm": "स्थायी रूप से हटाएँ",
+  "accountDeleted": "खाता हटा दिया गया"
 }

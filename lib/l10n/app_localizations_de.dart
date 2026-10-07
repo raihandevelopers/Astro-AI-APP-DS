@@ -662,4 +662,20 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get kundliColYears => 'Jahre';
+
+  @override
+  String get deleteAccount => 'Konto löschen';
+
+  @override
+  String get deleteAccountTitle => 'Konto wirklich löschen?';
+
+  @override
+  String get deleteAccountBody =>
+      'Dadurch werden Profil, Geburtshoroskop, Chats, Wallet-Verlauf und Handlesen dauerhaft gelöscht. Das kann nicht rückgängig gemacht werden.';
+
+  @override
+  String get deleteAccountConfirm => 'Endgültig löschen';
+
+  @override
+  String get accountDeleted => 'Konto gelöscht';
 }

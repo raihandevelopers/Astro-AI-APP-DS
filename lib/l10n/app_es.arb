@@ -207,5 +207,10 @@
   "kundliColNakshatra": "Nakshatra",
   "kundliColStart": "Inicio",
   "kundliColEnd": "Fin",
-  "kundliColYears": "Años"
+  "kundliColYears": "Años",
+  "deleteAccount": "Eliminar cuenta",
+  "deleteAccountTitle": "¿Eliminar tu cuenta?",
+  "deleteAccountBody": "Esto elimina permanentemente tu perfil, carta natal, chats, historial de billetera y lecturas de palma. No se puede deshacer.",
+  "deleteAccountConfirm": "Eliminar para siempre",
+  "accountDeleted": "Cuenta eliminada"
 }

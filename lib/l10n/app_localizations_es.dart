@@ -663,4 +663,20 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get kundliColYears => 'Años';
+
+  @override
+  String get deleteAccount => 'Eliminar cuenta';
+
+  @override
+  String get deleteAccountTitle => '¿Eliminar tu cuenta?';
+
+  @override
+  String get deleteAccountBody =>
+      'Esto elimina permanentemente tu perfil, carta natal, chats, historial de billetera y lecturas de palma. No se puede deshacer.';
+
+  @override
+  String get deleteAccountConfirm => 'Eliminar para siempre';
+
+  @override
+  String get accountDeleted => 'Cuenta eliminada';
 }

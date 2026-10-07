@@ -548,9 +548,41 @@ class YouScreen extends StatelessWidget {
             onPressed: () => app.logout(),
             child: Text(l.signOut),
           ),
+          const SizedBox(height: 10),
+          TextButton(
+            onPressed: app.busy ? null : () => _confirmDeleteAccount(context, app, l),
+            style: TextButton.styleFrom(foregroundColor: const Color(0xFFB91C1C)),
+            child: Text(l.deleteAccount),
+          ),
         ],
       ),
     );
+  }
+
+  Future<void> _confirmDeleteAccount(BuildContext context, AppState app, AppLocalizations l) async {
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: Text(l.deleteAccountTitle),
+        content: Text(l.deleteAccountBody),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(ctx, false), child: Text(l.cancel)),
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            style: TextButton.styleFrom(foregroundColor: const Color(0xFFB91C1C)),
+            child: Text(l.deleteAccountConfirm),
+          ),
+        ],
+      ),
+    );
+    if (ok != true || !context.mounted) return;
+    final deleted = await app.deleteAccount();
+    if (!context.mounted) return;
+    if (deleted) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(l.accountDeleted)));
+    } else if (app.error != null) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(app.error!)));
+    }
   }
 
   Widget _menuCard(BuildContext context, List<_MenuItem> items) {

@@ -468,4 +468,21 @@ class AppState extends ChangeNotifier {
     shellTab = 0;
     notifyListeners();
   }
+
+  Future<bool> deleteAccount() async {
+    error = null;
+    busy = true;
+    notifyListeners();
+    try {
+      await api.deleteAccount();
+      await logout();
+      return true;
+    } catch (e) {
+      error = e is ApiException ? e.message : e.toString().replaceFirst('Exception: ', '');
+      return false;
+    } finally {
+      busy = false;
+      notifyListeners();
+    }
+  }
 }
